@@ -1,0 +1,88 @@
+{
+  "international": {
+    "chatgpt": {
+      "name": "ChatGPT",
+      "provider": "OpenAI",
+      "optimization_focus": ["authority", "credentials", "depth"],
+      "word_count": {"min": 1500, "max": 2500},
+      "citation_style": "primary_sources",
+      "expected_boost": "+40% citation probability",
+      "key_factors": [
+        "Wikipedia citations (1.3M citations)",
+        "G2 (196K citations)",
+        "Forbes (181K citations)"
+      ]
+    },
+    "perplexity": {
+      "name": "Perplexity AI",
+      "provider": "Perplexity",
+      "optimization_focus": ["freshness", "inline_citations"],
+      "update_frequency": "2-3 days (aggressive) or 90 days (minimum)",
+      "structure": "H2→H3→bullets (40% more citations)",
+      "expected_boost": "3.2x citations when fresh",
+      "key_factors": [
+        "Content <30 days old",
+        "Inline [1], [2] citations",
+        "Reddit presence (46.7% of citations)"
+      ]
+    },
+    "claude": {
+      "name": "Claude",
+      "provider": "Anthropic",
+      "optimization_focus": ["accuracy", "primary_sources"],
+      "citation_count": "5-8 citations",
+      "attribution_accuracy": "91.2%",
+      "key_factors": [
+        "Primary sources only",
+        "Publisher + year in citations",
+        "Transparent methodology",
+        "Acknowledged limitations"
+      ]
+    },
+    "google_ai_overview": {
+      "name": "Google AI Overviews",
+      "provider": "Google",
+      "optimization_focus": ["structured_data", "direct_answers"],
+      "query_coverage": "13.14% (March 2025)",
+      "key_factors": [
+        "First 150 words direct answer",
+        "FAQ schema",
+        "Data tables",
+        "JSON-LD markup"
+      ]
+    },
+    "gemini": {
+      "name": "Gemini",
+      "provider": "Google",
+      "optimization_focus": ["community", "local_signals"],
+      "key_factors": [
+        "Google Business Profile",
+        "User reviews",
+        "Local citations (NAP)",
+        "Traditional authority signals"
+      ]
+    }
+  },
+  "optimization_techniques": {
+    "statistics_addition": {
+      "impact": "+41%",
+      "description": "添加精确统计数据"
+    },
+    "quotation_addition": {
+      "impact": "+28%",
+      "description": "添加专家引用"
+    },
+    "freshness": {
+      "impact": "3.2x",
+      "description": "内容<30天"
+    },
+    "author_credentials": {
+      "impact": "+40%",
+      "description": "添加作者凭证"
+    },
+    "h2_h3_bullets": {
+      "impact": "+40%",
+      "description": "H2→H3→项目符号结构"
+    }
+  }
+}

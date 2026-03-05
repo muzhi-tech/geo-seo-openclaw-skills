@@ -2,32 +2,40 @@
 
 本目录包含所有 SEO 和 GEO 相关的技能模块。
 
+## 已有技能
+
+### geo-site-audit
+
+独立站 GEO 全站审计技能，基于 SHEEP 框架：
+
+- **功能**: 全站 GEO 分析、平台优化建议、Schema 生成
+- **触发词**: "GEO审计"、"AI可见性分析"、"全站GEO优化"
+- **使用**: `/geo-site-audit https://your-site.com`
+
 ## 技能分类
 
 ### 🔍 SEO (搜索引擎优化)
 
-- `keyword-research/` - 关键词研究
-- `content-optimization/` - 内容优化
-- `technical-seo/` - 技术 SEO
-- `on-page-seo/` - 页面 SEO
-- `link-building/` - 外链建设
-- `local-seo/` - 本地 SEO
-- `ecommerce-seo/` - 电商 SEO
+| 技能 | 描述 | 状态 |
+|------|------|------|
+| keyword-research | 关键词研究 | 🚧 计划中 |
+| content-optimization | 内容优化 | 🚧 计划中 |
+| technical-seo | 技术 SEO | 🚧 计划中 |
+| on-page-seo | 页面 SEO | 🚧 计划中 |
 
 ### 🤖 GEO (生成式引擎优化)
 
-- `geo-optimization/` - GEO 优化
-- `entity-optimization/` - 实体优化
-- `citation-optimization/` - 引用优化
-- `knowledge-graph/` - 知识图谱
+| 技能 | 描述 | 状态 |
+|------|------|------|
+| geo-site-audit | 全站 GEO 审计 | ✅ 可用 |
+| geo-content-optimizer | 内容级 GEO 优化 | 🚧 计划中 |
+| entity-optimizer | 实体优化 | 🚧 计划中 |
+| schema-markup-generator | Schema 生成 | 🚧 计划中 |
 
 ## 技能结构
 
-每个技能包含：
-
 ```
 skill-name/
-├── skill.md          # 技能定义文件
-├── README.md         # 使用说明
-└── examples/         # 示例（可选）
+├── SKILL.md          # 技能定义文件
+└── README.md         # 使用说明 (可选)
 ```
